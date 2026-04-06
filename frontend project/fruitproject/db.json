@@ -1,0 +1,186 @@
+{
+  "admin": [
+    {
+      "id": "1",
+      "name": "bipin",
+      "email": "bipin@gmail.com",
+      "password": "admin123456"
+    }
+  ],
+  "customer": [
+    {
+      "id": "1",
+      "name": "bipin",
+      "email": "bipin@gmail.com",
+      "password": "bipin123",
+      "mobile": 1234567899,
+      "status": "Unblock"
+    },
+    {
+      "id": "2",
+      "name": "vivek",
+      "email": "vivek@gmail.com",
+      "password": "vivek123",
+      "mobile": 9999999999,
+      "status": "Unblock"
+    },
+    {
+      "id": "1768552868220",
+      "name": "vivek bhai ",
+      "image": "https://images.pexels.com/photos/51958/oranges-fruit-vitamins-healthy-eating-51958.jpeg",
+      "email": "vivekbhai@gmail.com",
+      "password": "1234",
+      "mobile": "1234567899",
+      "status": "Unblock"
+    },
+    {
+      "id": "1768650575573",
+      "name": "vivek ji",
+      "email": "vivekji@gmail.com",
+      "password": "12345",
+      "mobile": "123456789",
+      "status": "Unblock",
+      "image": ""
+    },
+    {
+      "id": "1768653021981",
+      "name": "bhai vivek",
+      "email": "bhaivivek@gmail.com",
+      "password": "123456",
+      "mobile": "1234567893",
+      "status": "Unblock",
+      "image": "https://www.w3schools.com/bootstrap5/img_avatar3.png"
+    },
+    {
+      "id": "1770368819109",
+      "name": "bipin ji",
+      "email": "bipinji@gmail.com",
+      "password": "1234",
+      "mobile": "1234567902",
+      "status": "Unblock"
+    }
+  ],
+  "categoies": [
+    {
+      "id": "1767856308966",
+      "name": "importaint fruit",
+      "image": "https://images.pexels.com/photos/51958/oranges-fruit-vitamins-healthy-eating-51958.jpeg"
+    },
+    {
+      "id": "1767856369778",
+      "name": "seasonal fruit",
+      "image": "https://images.pexels.com/photos/1053914/pexels-photo-1053914.jpeg"
+    }
+  ],
+  "products": [
+    {
+      "id": "1767861220371",
+      "cate_id": "1767856308966",
+      "name": "Orange",
+      "price": "499",
+      "disc_price": "398",
+      "sdesc": "good fruit",
+      "ldesc": "best and good fruit",
+      "image": "https://images.pexels.com/photos/51958/oranges-fruit-vitamins-healthy-eating-51958.jpeg",
+      "stock": "Instock"
+    },
+    {
+      "id": "1768991813022",
+      "cate_id": "1767856369778",
+      "name": "Apple",
+      "price": "399",
+      "disc_price": "298",
+      "sdesc": "good",
+      "ldesc": "very good fruit",
+      "image": "https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg",
+      "stock": "instock"
+    },
+    {
+      "id": "1768992540867",
+      "cate_id": "1767856369778",
+      "name": "Mango",
+      "price": "399",
+      "disc_price": "99",
+      "sdesc": "good",
+      "ldesc": "good and best product",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVWtoFYYlpyE1cKHwq-_HHFQu0wQ_R0S_fqQ&s",
+      "stock": "Instock"
+    },
+    {
+      "id": "1768992741529",
+      "cate_id": "1767856308966",
+      "name": "Apple",
+      "price": "399",
+      "disc_price": "299",
+      "sdesc": "hi ",
+      "ldesc": "hi ",
+      "image": "https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg",
+      "stock": "instock"
+    },
+    {
+      "id": "1768993770342",
+      "cate_id": "1767856308966",
+      "name": "Banana",
+      "price": "399",
+      "disc_price": "299",
+      "sdesc": "hii",
+      "ldesc": "hi",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkMVrbV-KmJVKBRn74Z0JsexEY1Ehiwy1rXQ&s",
+      "stock": "instock"
+    },
+    {
+      "id": "1770633770290",
+      "cate_id": "1767856308966",
+      "name": "Strawberry",
+      "price": "130",
+      "disc_price": "98",
+      "sdesc": "good ",
+      "ldesc": "very good",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUFT97r7J_GWI7C_rQFbcFyR4Stzh_XTHKzQ&s",
+      "stock": "Instock"
+    }
+  ],
+  "feedback": [
+    {
+      "id": "1",
+      "name": "Amit",
+      "email": "amit@gmail.com",
+      "cate_name": "importent fruit",
+      "cate_image": "https://images.pexels.com/photos/51958/oranges-fruit-vitamins-healthy-eating-51958.jpeg",
+      "comment": "Nice products"
+    },
+    {
+      "id": "2",
+      "name": "Radha",
+      "email": "radha@gmail.com",
+      "cate_name": "seasonal fruit",
+      "cate_image": "https://images.pexels.com/photos/1053914/pexels-photo-1053914.jpeg",
+      "comment": "Good products"
+    }
+  ],
+  "contact": [
+    {
+      "id": "1768657683483",
+      "name": "bipin bhai",
+      "email": "bipinbhai1919@gmail.com",
+      "phone": "1234567894",
+      "Message": "Hello Bhai",
+      "message": "n"
+    },
+    {
+      "id": "1768657765942",
+      "name": "Sadha",
+      "email": "sadha@gamil.com",
+      "phone": "1234567894",
+      "Message": "Hello Ji",
+      "message": "n"
+    },
+    {
+      "id": "1770565373784",
+      "name": "bipin",
+      "email": "bipin90@gmail.com",
+      "phone": "1234567899",
+      "Message": "hello hi "
+    }
+  ]
+}

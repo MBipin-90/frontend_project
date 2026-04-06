@@ -1,0 +1,932 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* navbar */
+
+.navbar1 {
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: all 0.4s;
+}
+
+.nav-item a:hover {
+    color: rgb(20, 219, 20);
+}
+
+.navbar-brand {
+    height: 50px;
+    width: 100px;
+    padding-top: 10px;
+    padding-left: 25px;
+    color: rgb(20, 219, 20);
+}
+
+.navbar-brand:hover {
+    color: rgb(247, 185, 70);
+}
+
+
+.search {
+    height: 45px;
+    outline: none;
+    border: 2px solid rgb(20, 219, 20);
+    background-color: transparent;
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+}
+
+.btn1 {
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: rgb(20, 219, 20);
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+    transition: all 0.4s;
+}
+
+.btn1:hover {
+    background-color: rgb(13, 172, 13);
+}
+
+.bi-bag-check {
+    font-size: 30px;
+    color: rgb(239, 223, 223);
+    cursor: pointer;
+    padding-top: 5px;
+    transition: all 0.4s;
+}
+
+.bi-person-circle {
+    font-size: 30px;
+    color: rgb(239, 223, 223);
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 10px;
+    transition: all 0.4s;
+}
+
+.bi-person-circle:hover{
+    color: rgb(20, 219, 20);
+}
+
+.bi-bag-check:hover {
+    color: rgb(20, 219, 20);
+}
+
+.navbar-toggler {
+    font-size: 23px;
+    color: black;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* main  */
+
+.template1 img {
+    width: 90%;
+    height: auto;
+    padding-top: 59px;
+}
+
+.template2 img {
+    width: 90%;
+    height: auto;
+    padding-top: 59px;
+}
+
+.template3 img {
+    width: 90%;
+    height: auto;
+    padding-top: 59px;
+}
+
+.template4 i{
+    color: black;
+    font-size: 30px;
+}
+
+#template-fruit-template-carousel .carousel-indicators li {
+    background-color: #099aa7;
+}
+
+.main1 {
+    padding-left: 140px;
+}
+
+.main2 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 9px;
+}
+
+.main3 {
+    padding-left: 23px;
+}
+
+.main h1 {
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main p:nth-child(2) {
+    font-size: 18px;
+    color: grey;
+}
+
+.mbtn1 {
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(20, 219, 20);
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+.mbtn1:hover {
+    background-color: rgb(13, 172, 13);
+}
+
+.mbtn2 {
+    height: 50px;
+    width: 25%;
+    outline: none;
+    background-color: transparent;
+    color: rgb(20, 219, 20);
+    border: 1px solid rgb(20, 219, 20);
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+.mbtn2:hover {
+    background-color: rgb(20, 219, 20);
+    color: white;
+    border: none;
+}
+
+.main1 .card1 {
+    transition: all 0.2s;
+}
+
+.main1 .card1:hover {
+    z-index: 1;
+    transform: scale(1.09);
+}
+
+.line {
+    height: 6px;
+    width: 30%;
+    background: rgb(20, 219, 20);
+    display: inline-block;
+}
+
+/* about */
+
+.about1 img {
+    height: 510px;
+    transition: all 0.2s;
+}
+
+.about1 img:hover {
+    z-index: 1;
+    transform: scale(1.09);
+}
+
+.about1 h1 {
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.about1 p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.about1 p:nth-child(2) {
+    font-size: 18px;
+    color: grey;
+}
+
+.about1 .card1 {
+    transition: all 0.2s;
+}
+
+.about1 .card1:hover {
+    z-index: 1;
+    transform: scale(1.09);
+}
+
+/* welcome */
+
+.welcome {
+    background: rgb(20, 219, 20);
+}
+
+.line2 {
+    height: 6px;
+    width: 30%;
+    background-color: white;
+    display: inline-block;
+}
+
+.welcome h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.welcome .card {
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.welcome i {
+    font-size: 45px;
+    color: rgb(20, 219, 20);
+}
+
+.welcome h2 {
+    font-weight: lighter;
+    padding: 10px 0px;
+}
+
+/* product */
+
+.product h1 {
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.product p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.product p:nth-child(2) {
+    font-size: 18px;
+    color: grey;
+}
+
+.star {
+    text-align: end;
+    color: orange;
+}
+
+.product .card {
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.product .card:hover {
+    z-index: 1;
+    box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
+    transform: scale(1.09);
+}
+
+.product img {
+    height: 210px;
+    width: 290px;
+}
+
+.product .card1 {
+    transition: all 0.2s;
+}
+
+.product .card1:hover {
+    z-index: 1;
+    transform: scale(1.1);
+}
+
+.head1 {
+    font-weight: 400;
+    margin: 0;
+}
+
+.per1 {
+    color: rgb(168, 163, 163);
+}
+
+.btna {
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(20, 219, 20);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s;
+}
+
+.btna:hover {
+    outline: none;
+    border: 1px solid rgb(20, 219, 20);
+    color: rgb(20, 219, 20);
+    background: transparent;
+    border-radius: 50px;
+}
+
+/* discount */
+
+.discount {
+    background: rgb(20, 219, 20);
+    color: white;
+}
+
+.dbtn {
+    height: 50px;
+    width: 75%;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    font-weight: lighter;
+    transition: all 0.4s;
+}
+
+.dbtn:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+/* store */
+
+.store h1 {
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.store p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.store p:nth-child(2) {
+    font-size: 18px;
+    color: grey;
+}
+
+.store i {
+    font-size: 45px;
+}
+
+.store .card {
+    border-radius: 0;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.store .card:hover {
+    background-color: rgb(20, 219, 20);
+    color: white;
+}
+
+.store .card:hover .per1 {
+    color: white;
+}
+
+/* seller */
+
+.seller h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    padding-left: 39px;
+}
+
+.seller i {
+    color: orange;
+}
+
+.seller .card {
+    border-radius: 30px;
+    border: none;
+}
+
+.seller2 {
+    padding-top: 59px;
+}
+
+.seller3 {
+    border-radius: 100%;
+}
+
+.seller img {
+    width: 100%;
+    height: 90%;
+}
+
+.seller .card img:hover {
+    transform: translate(-20px, -30px) scale(1.6) rotate(9deg);
+}
+
+.seller4:hover {
+    transition: 2s ease;
+    transform: scale(1.1);
+}
+
+/* stor 2 */
+
+.store2 h1 {
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.store3 {
+    background-color: rgb(250, 241, 241);
+    padding-top: 10px;
+    padding-bottom: 19px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.store2 i {
+    font-size: 45px;
+    color: orange;
+}
+
+.bold {
+    font-size: 79px;
+}
+
+.store3 h5 {
+    color: green;
+}
+
+.store4 {
+    border-radius: 9%;
+}
+
+/* footer */
+
+.footer3 {
+    background-color: rgb(20, 219, 20);
+    color: rgb(254, 254, 254);
+    padding-left: 140px;
+}
+
+.footer1 {
+    color: #099aa7;
+}
+.line4 {
+    height: 3px;
+    width: 100%;
+    background: rgb(247, 185, 70);
+    display: inline-block;
+}
+
+/* ========= About page ========= */
+
+.aboutmain {
+    position: relative;
+    display: inline-block;
+    padding-top: 140px;
+}
+
+.aboutmain img {
+    width: 100%;
+    height: 230px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 10px;
+}
+
+.aboutmain ol li a {
+    color: rgb(247, 229, 229);
+    text-decoration: none;
+}
+
+.aboutmain h1 {
+    color: rgb(239, 223, 223);
+    padding-top: 130px;
+}
+
+.aboutmain2 {
+    padding-top: 39px;
+}
+
+.aboutmain2 img {
+    width: 59%;
+}
+
+.aboutmain2 img {
+    transition: all 0.2s;
+}
+
+.aboutmain2 img:hover {
+    z-index: 1;
+    transform: scale(1.09);
+}
+
+.aboutmain3 {
+    padding-top: 110px;
+    padding-left: 50px;
+}
+
+.aboutmain4 img {
+    padding-top: 80px;
+    width: 80%;
+    transition: all 0.2s;
+}
+
+.aboutmain4 img:hover {
+    z-index: 1;
+    transform: scale(1.09);
+}
+
+.aboutmain5 {
+    padding-top: 199px;
+}
+
+.aboutmain6 img {
+    padding-top: 80px;
+    width: 100%;
+    transition: all 0.2s;
+}
+
+.aboutmain6 img:hover {
+    z-index: 1;
+    transform: scale(1.09);
+}
+
+.aboutmain7 {
+    padding-top: 159px;
+}
+
+.aboutmain8 img {
+    width: 100%;
+    padding-top: 80px;
+    transition: all 0.2s;
+}
+
+.aboutmain8 img:hover {
+    z-index: 1;
+    transform: scale(1.09);
+}
+
+.aboutmain9 {
+    padding-top: 199px;
+}
+
+.aboutmain10 img {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    transition: all 0.2s;
+}
+
+.aboutmain10 img:hover {
+    z-index: 1;
+    transform: scale(1.09);
+}
+
+.aboutmain11 {
+    padding-top: 199px;
+    padding-left: 90px;
+}
+
+/* discount */
+
+.aboutdiscount {
+    background: rgb(20, 219, 20);
+    color: white;
+}
+
+.dbtn {
+    height: 50px;
+    width: 75%;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    font-weight: lighter;
+    transition: all 0.4s;
+}
+
+.dbtn:hover {
+    background-color: rgb(247, 185, 70);
+}
+
+/* about discount hover */
+
+.aboutdiscount .card1 {
+    transition: all 0.2s;
+}
+
+.aboutdiscount .card1:hover {
+    z-index: 1;
+    transform: scale(1.1);
+}
+
+/* aboutproduct */
+
+.aboutproduct h1 {
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.aboutproduct p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.aboutproduct p:nth-child(2) {
+    font-size: 18px;
+    color: grey;
+}
+
+.star {
+    text-align: end;
+    color: orange;
+}
+
+.aboutproduct .card {
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.aboutproduct .card:hover {
+    z-index: 1;
+    box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
+    transform: scale(1.09);
+}
+
+.aboutproduct img {
+    height: 210px;
+    width: 290px;
+}
+
+.aboutproduct .card1 {
+    transition: all 0.2s;
+}
+
+.aboutproduct .card1:hover {
+    z-index: 1;
+    transform: scale(1.1);
+}
+
+.head1 {
+    font-weight: 400;
+    margin: 0;
+}
+
+.per1 {
+    color: rgb(168, 163, 163);
+}
+
+.btna {
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(20, 219, 20);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s;
+}
+
+.btna:hover {
+    outline: none;
+    border: 1px solid rgb(20, 219, 20);
+    color: rgb(20, 219, 20);
+    background: transparent;
+    border-radius: 50px;
+}
+
+/* about store */
+
+.aboutstore h1 {
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.aboutstore p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.aboutstore p:nth-child(2) {
+    font-size: 18px;
+    color: grey;
+}
+
+.aboutstore i {
+    font-size: 45px;
+}
+
+.aboutstore .card {
+    border-radius: 0;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.aboutstore .card:hover {
+    background-color: rgb(20, 219, 20);
+    color: white;
+}
+
+.aboutstore .card:hover .per1 {
+    color: white;
+}
+
+/* ========= shop page ========= */
+
+.shop1 li a {
+    color: rgb(20, 219, 20);
+    padding: 6px;
+    transition: all 0.4s;
+}
+
+.shop1 li a:hover {
+    color: orange;
+}
+
+.shop1 li i {
+    font-size: 20px;
+}
+
+.shop2 {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.shop1 a {
+    text-decoration: none;
+}
+
+.star {
+    color: orange;
+}
+
+.shop5 .card1 {
+    transition: all 0.2s;
+}
+
+.shop5 .card1:hover {
+    z-index: 1;
+    transform: scale(1.1);
+}
+
+.shop6 {
+    outline: none;
+    background-color: transparent;
+    color: rgb(20, 219, 20);
+    border: 1px solid rgb(20, 219, 20);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    transition: all 0.4s;
+}
+
+.shop6:hover {
+    background-color: rgb(20, 219, 20);
+    color: white;
+    border: none;
+}
+
+.shop7:hover {
+    transition: 2s ease;
+    transform: scale(1.2);
+}
+
+.shop7 {
+    width: 100px;
+    height: 100px
+}
+
+/*  shop product */
+
+.star {
+    text-align: end;
+    color: orange;
+}
+
+.shop8 .card {
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.shop8 .card:hover {
+    z-index: 1;
+    box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
+    transform: scale(1.09);
+}
+
+.shop8 img {
+    height: 180px;
+    width: 230px;
+    padding-left: 20px;
+}
+
+.shop8 .card1 {
+    transition: all 0.2s;
+}
+
+.shop8 .card1:hover {
+    z-index: 1;
+    transform: scale(1.1);
+}
+
+.head1 {
+    font-weight: 400;
+    margin: 0;
+}
+
+.per1 {
+    color: rgb(168, 163, 163);
+}
+
+.btna {
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(20, 219, 20);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s;
+}
+
+.btna:hover {
+    outline: none;
+    border: 1px solid rgb(20, 219, 20);
+    color: rgb(20, 219, 20);
+    background: transparent;
+    border-radius: 50px;
+}
+
+.shop9 img:hover {
+    transition: 2s ease;
+    transform: scale(1.3);
+}
+
+/* Pagination */
+
+.shoppagination li {
+    width: 60px;
+    text-align: center;
+    margin: 9px;
+}
+
+.shoppagination li a {
+    border-radius: 10px;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    transition: all 0.9s;
+}
+
+.shoppagination li a:hover {
+    color: rgb(228, 228, 228);
+    background-color: rgb(20, 219, 20);
+}
